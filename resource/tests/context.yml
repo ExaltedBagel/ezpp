@@ -1,0 +1,5 @@
+variables:
+  FOO: "My cheese"
+  BAR: "My hands"
+files:
+  lastresort: "resource/tests/cut_life.txt"

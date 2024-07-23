@@ -1,0 +1,15 @@
+[package]
+name = "ezpp"
+version = "0.1.0"
+edition = "2021"
+authors = ["Maxime Jacob"]
+description = "An easy to use file preprocessor to replace variables, env variables, and include files."
+license = "MIT"
+license-file = "LICENSE.txt"
+
+[dependencies]
+clap = "4.5.8"
+clap_derive = "4.5.8"
+regex = "1.10.5"
+serde = {version = "1.0.204", features = ["derive"] }
+serde_yaml = "0.9.34"
